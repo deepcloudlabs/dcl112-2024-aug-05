@@ -1,0 +1,17 @@
+1. Imperative Programming: procedural programming, oop
+   Problem -> Algorithm -> Solution
+2. Descriptive/Declarative Programming: oop, fp
+   Problem -> Solution
+Software Development -> Abstraction/Modeling
+   Problem (Real-World) -> Domain: banking, insurance, telecommunication, e-commerce,...
+   Requirement Gathering -> Analysis -> Design -> Implementation -> Test -> Deployment -> Maintenance
+   Requirement Model -> Analysis Model -> Design Model -> Source Code -> Test Model -> Deployment Model
+Memory: OS/Process -> Heap, Stack, Text, Data
+Procedural Programming
+   procedure -> c function -> Data/Heap
+Object-Oriented Programming
+  i. Class: Data <- Function, Object -> Encapsulation + Information Hiding Principle
+     Modeling Tool: members: data/state/property/attribute: iban, balance, methods: deposit, withdraw
+     DDD
+ ii. Inheritance   -> Reusability
+iii. Polymorphism  -> Agility + Open/Closed Principle
