@@ -1,0 +1,6 @@
+implicit/örtük
+1. default constructor
+2. destructor
+3. copy constructor -> shallow copy
+4. assignment operator
+class B {};

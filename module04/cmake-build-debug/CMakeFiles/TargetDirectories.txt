@@ -1,0 +1,5 @@
+C:/var/github/dcl112-2024-aug-05/module04/cmake-build-debug/CMakeFiles/module04-1.dir
+C:/var/github/dcl112-2024-aug-05/module04/cmake-build-debug/CMakeFiles/module04-2.dir
+C:/var/github/dcl112-2024-aug-05/module04/cmake-build-debug/CMakeFiles/module04-3.dir
+C:/var/github/dcl112-2024-aug-05/module04/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/var/github/dcl112-2024-aug-05/module04/cmake-build-debug/CMakeFiles/rebuild_cache.dir

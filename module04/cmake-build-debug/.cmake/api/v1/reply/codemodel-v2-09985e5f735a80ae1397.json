@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "module04",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "module04-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module04-1-Debug-b5cc7f5bf79eda907ab8.json",
+					"name" : "module04-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module04-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module04-2-Debug-6a492f140338255b520a.json",
+					"name" : "module04-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module04-3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module04-3-Debug-34c285d1871aa872f66d.json",
+					"name" : "module04-3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/var/github/dcl112-2024-aug-05/module04/cmake-build-debug",
+		"source" : "C:/var/github/dcl112-2024-aug-05/module04"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
