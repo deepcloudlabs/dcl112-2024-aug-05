@@ -94,8 +94,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/var/github/dcl112-2024-aug-05/module03/cmake-build-debug",
-		"source" : "C:/var/github/dcl112-2024-aug-05/module03"
+		"build" : "D:/var/GitHub/dcl112-2024-aug-05/module03/cmake-build-debug",
+		"source" : "D:/var/GitHub/dcl112-2024-aug-05/module03"
 	},
 	"version" : 
 	{
