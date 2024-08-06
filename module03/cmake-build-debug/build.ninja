@@ -157,6 +157,123 @@ build module03-3.exe: CXX_EXECUTABLE_LINKER__module03-3_Debug CMakeFiles/module0
   TARGET_IMPLIB = libmodule03-3.dll.a
   TARGET_PDB = module03-3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target module03-4
+
+
+#############################################
+# Order-only phony target for module03-4
+
+build cmake_object_order_depends_target_module03-4: phony || CMakeFiles/module03-4.dir
+
+build CMakeFiles/module03-4.dir/exercise04.cpp.obj: CXX_COMPILER__module03-4_unscanned_Debug C$:/var/github/dcl112-2024-aug-05/module03/exercise04.cpp || cmake_object_order_depends_target_module03-4
+  DEP_FILE = CMakeFiles\module03-4.dir\exercise04.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\module03-4.dir
+  OBJECT_FILE_DIR = CMakeFiles\module03-4.dir
+
+build CMakeFiles/module03-4.dir/vehicle.cpp.obj: CXX_COMPILER__module03-4_unscanned_Debug C$:/var/github/dcl112-2024-aug-05/module03/vehicle.cpp || cmake_object_order_depends_target_module03-4
+  DEP_FILE = CMakeFiles\module03-4.dir\vehicle.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\module03-4.dir
+  OBJECT_FILE_DIR = CMakeFiles\module03-4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target module03-4
+
+
+#############################################
+# Link the executable module03-4.exe
+
+build module03-4.exe: CXX_EXECUTABLE_LINKER__module03-4_Debug CMakeFiles/module03-4.dir/exercise04.cpp.obj CMakeFiles/module03-4.dir/vehicle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\module03-4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = module03-4.exe
+  TARGET_IMPLIB = libmodule03-4.dll.a
+  TARGET_PDB = module03-4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target module03-5
+
+
+#############################################
+# Order-only phony target for module03-5
+
+build cmake_object_order_depends_target_module03-5: phony || CMakeFiles/module03-5.dir
+
+build CMakeFiles/module03-5.dir/exercise05.cpp.obj: CXX_COMPILER__module03-5_unscanned_Debug C$:/var/github/dcl112-2024-aug-05/module03/exercise05.cpp || cmake_object_order_depends_target_module03-5
+  DEP_FILE = CMakeFiles\module03-5.dir\exercise05.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\module03-5.dir
+  OBJECT_FILE_DIR = CMakeFiles\module03-5.dir
+
+build CMakeFiles/module03-5.dir/vehicle.cpp.obj: CXX_COMPILER__module03-5_unscanned_Debug C$:/var/github/dcl112-2024-aug-05/module03/vehicle.cpp || cmake_object_order_depends_target_module03-5
+  DEP_FILE = CMakeFiles\module03-5.dir\vehicle.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\module03-5.dir
+  OBJECT_FILE_DIR = CMakeFiles\module03-5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target module03-5
+
+
+#############################################
+# Link the executable module03-5.exe
+
+build module03-5.exe: CXX_EXECUTABLE_LINKER__module03-5_Debug CMakeFiles/module03-5.dir/exercise05.cpp.obj CMakeFiles/module03-5.dir/vehicle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\module03-5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = module03-5.exe
+  TARGET_IMPLIB = libmodule03-5.dll.a
+  TARGET_PDB = module03-5.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target module03-6
+
+
+#############################################
+# Order-only phony target for module03-6
+
+build cmake_object_order_depends_target_module03-6: phony || CMakeFiles/module03-6.dir
+
+build CMakeFiles/module03-6.dir/exercise06.cpp.obj: CXX_COMPILER__module03-6_unscanned_Debug C$:/var/github/dcl112-2024-aug-05/module03/exercise06.cpp || cmake_object_order_depends_target_module03-6
+  DEP_FILE = CMakeFiles\module03-6.dir\exercise06.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\module03-6.dir
+  OBJECT_FILE_DIR = CMakeFiles\module03-6.dir
+
+build CMakeFiles/module03-6.dir/vehicle.cpp.obj: CXX_COMPILER__module03-6_unscanned_Debug C$:/var/github/dcl112-2024-aug-05/module03/vehicle.cpp || cmake_object_order_depends_target_module03-6
+  DEP_FILE = CMakeFiles\module03-6.dir\vehicle.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\module03-6.dir
+  OBJECT_FILE_DIR = CMakeFiles\module03-6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target module03-6
+
+
+#############################################
+# Link the executable module03-6.exe
+
+build module03-6.exe: CXX_EXECUTABLE_LINKER__module03-6_Debug CMakeFiles/module03-6.dir/exercise06.cpp.obj CMakeFiles/module03-6.dir/vehicle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\module03-6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = module03-6.exe
+  TARGET_IMPLIB = libmodule03-6.dll.a
+  TARGET_PDB = module03-6.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -189,6 +306,12 @@ build module03-2: phony module03-2.exe
 
 build module03-3: phony module03-3.exe
 
+build module03-4: phony module03-4.exe
+
+build module03-5: phony module03-5.exe
+
+build module03-6: phony module03-6.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -197,7 +320,7 @@ build module03-3: phony module03-3.exe
 #############################################
 # Folder: C:/var/github/dcl112-2024-aug-05/module03/cmake-build-debug
 
-build all: phony module03-1.exe module03-2.exe module03-3.exe
+build all: phony module03-1.exe module03-2.exe module03-3.exe module03-4.exe module03-5.exe module03-6.exe
 
 # =============================================================================
 # Built-in targets

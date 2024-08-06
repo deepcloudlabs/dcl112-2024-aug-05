@@ -9,7 +9,7 @@ namespace siemens {
     }
 
     vehicle::~vehicle() {
-        cout << "vehicle::~vehicle(" << this->capacity << ")" << endl;
+        cout << "vehicle::~vehicle(" << (this->capacity -  this->weight) << ")" << endl;
     }
 
     bool vehicle::load_box(const double box_weight) {
