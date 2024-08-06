@@ -41,9 +41,11 @@ int main(int argc, char** argv) {
           << endl;     
     delete customer;
 
+    /*
     Account acc1(100),acc2(200);
     Account sumAcc= acc1+acc2;
     cout << "Balance of sumAcc is " << sumAcc.getBalance() << endl;
+    */
     return 0;
 }
 
