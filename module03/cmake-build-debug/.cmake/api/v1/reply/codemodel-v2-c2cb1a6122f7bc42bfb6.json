@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "module03",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,9 +40,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "module03::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-module03-Debug-7aad66b91eff8d562b51.json",
-					"name" : "module03",
+					"id" : "module03-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module03-1-Debug-94fedc663463eccebb8c.json",
+					"name" : "module03-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module03-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module03-2-Debug-ed3df04bbfb93793f4e1.json",
+					"name" : "module03-2",
 					"projectIndex" : 0
 				}
 			]
