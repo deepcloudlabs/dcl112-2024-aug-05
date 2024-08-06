@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="module04"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="module04-1">
+				<Option output="D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/module04-1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 module04-1"/>
+					<CompileFile command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="module04-1/fast">
+				<Option output="D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/module04-1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 module04-1/fast"/>
+					<CompileFile command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="module04-2">
+				<Option output="D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/module04-2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 module04-2"/>
+					<CompileFile command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="module04-2/fast">
+				<Option output="D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/module04-2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 module04-2/fast"/>
+					<CompileFile command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="module04-3">
+				<Option output="D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/module04-3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 module04-3"/>
+					<CompileFile command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="module04-3/fast">
+				<Option output="D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/module04-3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 module04-3/fast"/>
+					<CompileFile command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/module04/exercise01.cpp">
+			<Option target="module04-1"/>
+		</Unit>
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/module04/exercise02.cpp">
+			<Option target="module04-2"/>
+		</Unit>
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/module04/exercise03.cpp">
+			<Option target="module04-3"/>
+		</Unit>
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/module04/point.cpp">
+			<Option target="module04-2"/>
+		</Unit>
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/module04/point.h">
+			<Option target="module04-2"/>
+		</Unit>
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/module04/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,3 @@
+D:\DEVEL\stage\opt\CLion-2024.1.4\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\module04-3.dir/objects.a
+D:\DEVEL\stage\opt\CLion-2024.1.4\bin\mingw\bin\ar.exe qc CMakeFiles\module04-3.dir/objects.a @CMakeFiles\module04-3.dir\objects1.rsp
+D:\DEVEL\stage\opt\CLion-2024.1.4\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\module04-3.dir/objects.a -Wl,--no-whole-archive -o module04-3.exe -Wl,--out-implib,libmodule04-3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\module04-3.dir\linkLibs.rsp

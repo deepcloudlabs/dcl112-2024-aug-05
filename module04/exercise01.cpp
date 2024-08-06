@@ -2,7 +2,7 @@
 using namespace std;
 
 class A {
-    int data;
+    [[maybe_unused]] int data;
 
 public:
     A() {
@@ -11,7 +11,7 @@ public:
         cout << "A::A()" << endl;
     }
 
-    A(int data) {
+    explicit A(int data) {
         // A(int)
         this->data = data;
         cout << "A::A("<< data << ")" << endl;
@@ -24,10 +24,10 @@ public:
 
 int main() {
     std::cout << sizeof(A) << std::endl;
-    A a();
+    A a;
     A b{100};
     A c;
-    A aa[5]{42,108};
+    [[maybe_unused]] A aa[5]{A{42},A{108},A{1},A{2}};
     A *p = new A;
     A *q = new A();
     A *r = new A{};
