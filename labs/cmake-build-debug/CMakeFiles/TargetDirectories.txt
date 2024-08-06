@@ -1,3 +1,4 @@
 C:/var/github/dcl112-2024-aug-05/labs/cmake-build-debug/CMakeFiles/exercise4.dir
+C:/var/github/dcl112-2024-aug-05/labs/cmake-build-debug/CMakeFiles/exercise5.dir
 C:/var/github/dcl112-2024-aug-05/labs/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/var/github/dcl112-2024-aug-05/labs/cmake-build-debug/CMakeFiles/rebuild_cache.dir

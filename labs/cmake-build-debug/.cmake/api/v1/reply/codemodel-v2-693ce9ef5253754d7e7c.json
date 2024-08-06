@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "labs",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "exercise4::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-exercise4-Debug-78aaf2eaf9bd8279bf1d.json",
 					"name" : "exercise4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exercise5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exercise5-Debug-59e0848973fa218c8351.json",
+					"name" : "exercise5",
 					"projectIndex" : 0
 				}
 			]

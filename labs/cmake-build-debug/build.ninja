@@ -79,6 +79,51 @@ build exercise4.exe: CXX_EXECUTABLE_LINKER__exercise4_Debug CMakeFiles/exercise4
   TARGET_IMPLIB = libexercise4.dll.a
   TARGET_PDB = exercise4.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise5
+
+
+#############################################
+# Order-only phony target for exercise5
+
+build cmake_object_order_depends_target_exercise5: phony || CMakeFiles/exercise5.dir
+
+build CMakeFiles/exercise5.dir/mod04/exercise5/TestBanking.cpp.obj: CXX_COMPILER__exercise5_unscanned_Debug C$:/var/github/dcl112-2024-aug-05/labs/mod04/exercise5/TestBanking.cpp || cmake_object_order_depends_target_exercise5
+  DEP_FILE = CMakeFiles\exercise5.dir\mod04\exercise5\TestBanking.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exercise5.dir
+  OBJECT_FILE_DIR = CMakeFiles\exercise5.dir\mod04\exercise5
+
+build CMakeFiles/exercise5.dir/mod04/exercise5/Account.cpp.obj: CXX_COMPILER__exercise5_unscanned_Debug C$:/var/github/dcl112-2024-aug-05/labs/mod04/exercise5/Account.cpp || cmake_object_order_depends_target_exercise5
+  DEP_FILE = CMakeFiles\exercise5.dir\mod04\exercise5\Account.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exercise5.dir
+  OBJECT_FILE_DIR = CMakeFiles\exercise5.dir\mod04\exercise5
+
+build CMakeFiles/exercise5.dir/mod04/exercise5/Customer.cpp.obj: CXX_COMPILER__exercise5_unscanned_Debug C$:/var/github/dcl112-2024-aug-05/labs/mod04/exercise5/Customer.cpp || cmake_object_order_depends_target_exercise5
+  DEP_FILE = CMakeFiles\exercise5.dir\mod04\exercise5\Customer.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exercise5.dir
+  OBJECT_FILE_DIR = CMakeFiles\exercise5.dir\mod04\exercise5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise5
+
+
+#############################################
+# Link the executable exercise5.exe
+
+build exercise5.exe: CXX_EXECUTABLE_LINKER__exercise5_Debug CMakeFiles/exercise5.dir/mod04/exercise5/TestBanking.cpp.obj CMakeFiles/exercise5.dir/mod04/exercise5/Account.cpp.obj CMakeFiles/exercise5.dir/mod04/exercise5/Customer.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exercise5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exercise5.exe
+  TARGET_IMPLIB = libexercise5.dll.a
+  TARGET_PDB = exercise5.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -107,6 +152,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build exercise4: phony exercise4.exe
 
+build exercise5: phony exercise5.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -115,7 +162,7 @@ build exercise4: phony exercise4.exe
 #############################################
 # Folder: C:/var/github/dcl112-2024-aug-05/labs/cmake-build-debug
 
-build all: phony exercise4.exe
+build all: phony exercise4.exe exercise5.exe
 
 # =============================================================================
 # Built-in targets
