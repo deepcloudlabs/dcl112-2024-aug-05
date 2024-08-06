@@ -18,5 +18,6 @@ int main() {
     }; // constructor
     // 5 vehicle objects are created in the stack!
     // stack -> LIFO
+    cout << sizeof(vehicles)/sizeof(siemens::vehicle) << endl;
     return 0;
 }
