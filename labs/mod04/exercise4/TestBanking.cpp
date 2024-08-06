@@ -5,9 +5,10 @@
  * Created on November 7, 2008, 3:16 PM
  */
 #include "Account.h"
+using namespace banking;
 #include <iostream>
 using namespace std;
-
+// 15:35
 /*
  * 
  */
@@ -31,5 +32,5 @@ int main(int argc, char** argv) {
     cout << endl << "The account has a balance of " << account->getBalance(); 
     cout << endl ;    
     delete account;
-    return (EXIT_SUCCESS);
+    return 0;
 }
