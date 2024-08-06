@@ -20,7 +20,7 @@ namespace siemens {
         return true;
     }
 
-    bool vehicle::unload_box(const double box_weight) {
+    [[maybe_unused]] bool vehicle::unload_box(const double box_weight) {
         // validation
         if (box_weight > this->weight)
             return false;
@@ -33,7 +33,7 @@ namespace siemens {
         return this->weight;
     }
 
-    double vehicle::get_capacity() const {
+    [[maybe_unused]] double vehicle::get_capacity() const {
         return this->capacity;
     }
 }

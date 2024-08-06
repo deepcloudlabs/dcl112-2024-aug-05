@@ -3,10 +3,10 @@
 using namespace std;
 
 int main() {
-    // c++11: uniform initializtion
+    // c++11: uniform initialization
     siemens::vehicle v1{8'000}; // constructor
-    int x = 42;
-    int y{42};
+    [[maybe_unused]] int x = 42;
+    [[maybe_unused]] int y{42};
     // arrays
     int numbers[] = {4, 8, 15, 16, 23, 42}; // stack
     cout << hex << numbers << endl;     // address

@@ -4,7 +4,7 @@ using namespace std;
 
 
 int main() {
-    // c++11: uniform initializtion
+    // c++11: uniform initialization
     siemens::vehicle* *vehicles;
     vehicles = new siemens::vehicle*[5]; // no object is created
     vehicles[0] = new siemens::vehicle { 10'000 };

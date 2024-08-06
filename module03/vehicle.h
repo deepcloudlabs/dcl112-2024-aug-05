@@ -19,10 +19,11 @@ namespace siemens {
         // 3. business methods
         bool load_box(const double box_weight);
 
-        bool unload_box(const double box_weight) ;
+        [[maybe_unused]] bool unload_box(const double box_weight) ;
         // 4. getter methods
         double get_weight() const ;
-        double get_capacity() const;
+
+        [[maybe_unused]] double get_capacity() const;
     };
 }
 
