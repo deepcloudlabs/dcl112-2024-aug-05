@@ -1,0 +1,3 @@
+D:/var/GitHub/dcl112-2024-aug-05/module05/cmake-build-debug/CMakeFiles/module05.dir
+D:/var/GitHub/dcl112-2024-aug-05/module05/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/var/GitHub/dcl112-2024-aug-05/module05/cmake-build-debug/CMakeFiles/rebuild_cache.dir
