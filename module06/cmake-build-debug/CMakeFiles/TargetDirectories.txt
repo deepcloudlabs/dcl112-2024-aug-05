@@ -1,3 +1,5 @@
-D:/var/GitHub/dcl112-2024-aug-05/module06/cmake-build-debug/CMakeFiles/module06.dir
+D:/var/GitHub/dcl112-2024-aug-05/module06/cmake-build-debug/CMakeFiles/exercise01.dir
+D:/var/GitHub/dcl112-2024-aug-05/module06/cmake-build-debug/CMakeFiles/exercise02.dir
+D:/var/GitHub/dcl112-2024-aug-05/module06/cmake-build-debug/CMakeFiles/exercise03.dir
 D:/var/GitHub/dcl112-2024-aug-05/module06/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/var/GitHub/dcl112-2024-aug-05/module06/cmake-build-debug/CMakeFiles/rebuild_cache.dir
