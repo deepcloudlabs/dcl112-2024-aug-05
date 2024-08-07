@@ -1,4 +1,6 @@
 #include "Account.h"
+#include <iostream>
+using namespace std;
 
 banking::Account::Account(double init_balance) : balance(init_balance) {
 }
@@ -23,3 +25,4 @@ bool banking::Account::withdraw(double amount) {
     this->balance -= amount;
     return true;
 }
+

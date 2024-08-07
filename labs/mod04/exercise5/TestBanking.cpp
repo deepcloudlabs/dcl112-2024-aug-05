@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
 
     cout << endl << "Withdraw 47.62";
     account.withdraw(47.62);
-
+    cout << account ;
     // Print out the final account balance
     cout  << endl 
           << "Customer [" 

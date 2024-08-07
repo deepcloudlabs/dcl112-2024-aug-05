@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 #ifndef ACCOUNT_H
 #define ACCOUNT_H
 
@@ -15,5 +18,5 @@ namespace banking {
         bool withdraw(double amount);
     };
 }
-
+ostream& operator<<(ostream& os,banking::Account account);
 #endif //ACCOUNT_H

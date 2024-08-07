@@ -213,6 +213,30 @@ mod04/exercise5/Account.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise5.dir\build.make CMakeFiles/exercise5.dir/mod04/exercise5/Account.cpp.s
 .PHONY : mod04/exercise5/Account.cpp.s
 
+mod04/exercise5/CheckingAccount.obj: mod04/exercise5/CheckingAccount.cpp.obj
+.PHONY : mod04/exercise5/CheckingAccount.obj
+
+# target to build an object file
+mod04/exercise5/CheckingAccount.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise5.dir\build.make CMakeFiles/exercise5.dir/mod04/exercise5/CheckingAccount.cpp.obj
+.PHONY : mod04/exercise5/CheckingAccount.cpp.obj
+
+mod04/exercise5/CheckingAccount.i: mod04/exercise5/CheckingAccount.cpp.i
+.PHONY : mod04/exercise5/CheckingAccount.i
+
+# target to preprocess a source file
+mod04/exercise5/CheckingAccount.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise5.dir\build.make CMakeFiles/exercise5.dir/mod04/exercise5/CheckingAccount.cpp.i
+.PHONY : mod04/exercise5/CheckingAccount.cpp.i
+
+mod04/exercise5/CheckingAccount.s: mod04/exercise5/CheckingAccount.cpp.s
+.PHONY : mod04/exercise5/CheckingAccount.s
+
+# target to generate assembly for a file
+mod04/exercise5/CheckingAccount.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise5.dir\build.make CMakeFiles/exercise5.dir/mod04/exercise5/CheckingAccount.cpp.s
+.PHONY : mod04/exercise5/CheckingAccount.cpp.s
+
 mod04/exercise5/Customer.obj: mod04/exercise5/Customer.cpp.obj
 .PHONY : mod04/exercise5/Customer.obj
 
@@ -280,6 +304,9 @@ help:
 	@echo ... mod04/exercise5/Account.obj
 	@echo ... mod04/exercise5/Account.i
 	@echo ... mod04/exercise5/Account.s
+	@echo ... mod04/exercise5/CheckingAccount.obj
+	@echo ... mod04/exercise5/CheckingAccount.i
+	@echo ... mod04/exercise5/CheckingAccount.s
 	@echo ... mod04/exercise5/Customer.obj
 	@echo ... mod04/exercise5/Customer.i
 	@echo ... mod04/exercise5/Customer.s
