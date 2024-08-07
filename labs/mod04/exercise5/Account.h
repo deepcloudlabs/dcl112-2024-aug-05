@@ -6,8 +6,9 @@ using namespace std;
 
 namespace banking {
     class Account {
+    private:
+    protected:
         double balance;
-
     public:
         Account(double init_balance);
 

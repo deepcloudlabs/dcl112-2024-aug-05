@@ -69,7 +69,10 @@ ostream &operator<<(ostream &os, A a) {
     os << a.x << endl;
     return os;
 }
-
+class B {
+public:
+    B& operator=(B& other) =delete ;
+};
 int main() {
     A a1(42);
     A a2;
@@ -91,5 +94,7 @@ int main() {
     A a14 = a1(3, 5);
     cout << a14[] << endl;
     cout << a14[100](10) << endl;
+    B b,c;
+    // b=c; // error: assignment operator is deleted!
     return 0;
 }

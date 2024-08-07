@@ -8,15 +8,29 @@ namespace banking {
     // Account          : base class     super-class
     // CheckingAccount  : derived class  subclass
     class CheckingAccount : public Account {
-       double overdraft_amount;
+        double overdraft_amount;
     public:
         CheckingAccount(double to_balance, double to_overdraft_amount)
-          : Account(to_balance){
+                : Account(to_balance) {
             this->overdraft_amount = to_overdraft_amount;
         }
+
         // overriding vs overloading
+        // overloading: i. within the same class
+        //             ii. same method
+        //            iii. different signature
+        // overriding: i. inherited classes
+        //            ii. same method
+        //           iii. same signature
+        bool withdraw(double amount);
+
+        double getOverdraftAmount() const {
+            return this->overdraft_amount;
+        }
     };
 }
+// overloading
+ostream &operator<<(ostream &os, banking::CheckingAccount account);
 
 
 #endif //LABS_CHECKINGACCOUNT_H
