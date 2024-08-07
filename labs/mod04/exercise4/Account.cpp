@@ -1,5 +1,6 @@
 #include "Account.h"
 #include <iostream>
+
 using namespace std;
 
 banking::Account::Account(double init_balance) : balance(init_balance) {
@@ -26,3 +27,6 @@ bool banking::Account::withdraw(double amount) {
     return true;
 }
 
+banking::Account banking::Account::operator+(const Account &other) {
+    return Account{this->balance + other.balance};
+}

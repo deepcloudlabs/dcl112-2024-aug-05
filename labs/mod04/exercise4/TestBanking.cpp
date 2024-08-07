@@ -5,15 +5,18 @@
  * Created on November 7, 2008, 3:16 PM
  */
 #include "Account.h"
+
 using namespace banking;
+
 #include <iostream>
+
 using namespace std;
 // 15:35
 /*
  * 
  */
-int main(int argc, char** argv) {
-    Account  *account;
+int main(int argc, char **argv) {
+    Account *account;
 
     // Create an account that can has a 500.00 balance.
     cout << endl << "Creating an account with a 500.00 balance.";
@@ -29,8 +32,12 @@ int main(int argc, char** argv) {
     account->withdraw(47.62);
 
     // Print out the final account balance
-    cout << endl << "The account has a balance of " << account->getBalance(); 
-    cout << endl ;    
+    cout << endl << "The account has a balance of " << account->getBalance();
+    cout << endl;
     delete account;
+
+    Account acc1(100), acc2(200);
+    Account sumAcc = acc1 + acc2;
+    cout << "Balance of sumAcc is " << sumAcc.getBalance() << endl;
     return 0;
 }

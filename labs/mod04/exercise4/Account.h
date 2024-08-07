@@ -13,6 +13,7 @@ namespace banking {
         bool deposit(double amount);
 
         bool withdraw(double amount);
+        Account operator+(const Account& other);
     };
 }
 
