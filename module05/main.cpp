@@ -47,7 +47,28 @@ public:
         this->x++;
         return A{temp};
     }
+
+    A operator()(int u = 5, int v = 10) {
+        cout << "operator()(int,int)" << endl;
+        return A(u * this->x + v);
+    }
+
+    int operator[]() {
+        return this->x;
+    }
+
+    A operator[](int i) {
+        return A{this->x / i};
+    }
+
+    friend ostream &operator<<(ostream &os, A a);
 };
+
+// global function
+ostream &operator<<(ostream &os, A a) {
+    os << a.x << endl;
+    return os;
+}
 
 int main() {
     A a1(42);
@@ -63,7 +84,12 @@ int main() {
     A a7 = a1 + a2; // a1.operator+(a2)
     A a8 = a4 + 100; // a1.operator+(100)
     A a9 = -a2; // a2.operator-()
-    A a10 = ++a2 ; // pre-increment
-    A a11 = a2++ ; // post-increment
+    A a10 = ++a2; // pre-increment
+    A a11 = a2++; // post-increment
+    A a12 = a1();
+    A a13 = a1(3);
+    A a14 = a1(3, 5);
+    cout << a14[] << endl;
+    cout << a14[100](10) << endl;
     return 0;
 }
