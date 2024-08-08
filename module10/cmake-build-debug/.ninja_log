@@ -1,0 +1,8 @@
+# ninja log v6
+7	3062	7448442065652178	build.ninja	b4542d47190eeae8
+18	6284	7448436497908676	CMakeFiles/module10.dir/run-time-polymorphism.cpp.obj	5dbb5e45d1d7c7ea
+6286	7170	7448436560599596	module10.exe	1f25529bcb4bd35d
+18	5129	7448442109851871	CMakeFiles/module10-2.dir/compile-time-polymorphism.cpp.obj	953908223dbf2da5
+5133	5437	7448442161080610	module10-2.exe	45b2c4a6d2754f1e
+26	6411	7448443322748843	CMakeFiles/module10-2.dir/compile-time-polymorphism.cpp.obj	953908223dbf2da5
+6416	7119	7448443386646897	module10-2.exe	45b2c4a6d2754f1e
