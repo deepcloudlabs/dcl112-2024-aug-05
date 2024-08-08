@@ -14,9 +14,9 @@ namespace banking {
 
         double getBalance() const;
 
-        bool deposit(double amount);
+        virtual bool deposit(double amount);
 
-        bool withdraw(double amount);
+        virtual bool withdraw(double amount);
     };
 }
 ostream& operator<<(ostream& os,banking::Account account);

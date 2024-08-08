@@ -13,6 +13,10 @@ struct square {
         cout << "square::area()" << endl;
         return edge * edge;
     }
+
+    virtual ~square(){
+       cout << "square::~square()" << endl;
+    }
 };
 
 struct cube : public square { // 1. there are inherited classes
@@ -23,6 +27,9 @@ struct cube : public square { // 1. there are inherited classes
         return 6 * edge * edge;
     }
 
+    ~cube(){
+       cout << "cube::~cube()" << endl;
+    }
 };
 
 int main() {
@@ -41,10 +48,21 @@ int main() {
     }
                              // late-binding -> runtime
     auto computed_area = p->area(); // 3. call polymorphic methods over a pointer
-    cb.area(); // statically bind
-    sq.area(); // statically bind
+    cb.area(); // cube::area <-- statically bind
+    sq.area(); // square::area <-- statically bind
     cout << "computed area is " << computed_area << endl;
     cout << sizeof(square) << endl;
     cout << sizeof(cube) << endl;
+    square* q;
+    if (uniform_dist(rd)>3) {
+        cout << "head -> square" << endl;
+        q = new square(100);
+    } else {
+        cout << "tail -> cube" << endl;
+        q = new cube(100);
+    }
+    cout << "before deleting q..." << endl ;
+    delete q;
+    cout << "after deleting q..." << endl ;
     return 0;
 }
