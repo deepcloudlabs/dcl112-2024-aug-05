@@ -54,4 +54,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/exercise4.dir/DependInfo.cmake"
   "CMakeFiles/exercise5.dir/DependInfo.cmake"
+  "CMakeFiles/exercise7.dir/DependInfo.cmake"
   )

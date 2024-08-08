@@ -141,6 +141,19 @@ exercise5/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise5.dir\build.make CMakeFiles/exercise5.dir/build
 .PHONY : exercise5/fast
 
+#=============================================================================
+# Target rules for targets named exercise7
+
+# Build rule for target.
+exercise7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise7
+.PHONY : exercise7
+
+# fast build rule for target.
+exercise7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise7.dir\build.make CMakeFiles/exercise7.dir/build
+.PHONY : exercise7/fast
+
 mod04/exercise4/Account.obj: mod04/exercise4/Account.cpp.obj
 .PHONY : mod04/exercise4/Account.obj
 
@@ -285,6 +298,126 @@ mod04/exercise5/TestBanking.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise5.dir\build.make CMakeFiles/exercise5.dir/mod04/exercise5/TestBanking.cpp.s
 .PHONY : mod04/exercise5/TestBanking.cpp.s
 
+mod05/exercise7/Bank.obj: mod05/exercise7/Bank.cpp.obj
+.PHONY : mod05/exercise7/Bank.obj
+
+# target to build an object file
+mod05/exercise7/Bank.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise7.dir\build.make CMakeFiles/exercise7.dir/mod05/exercise7/Bank.cpp.obj
+.PHONY : mod05/exercise7/Bank.cpp.obj
+
+mod05/exercise7/Bank.i: mod05/exercise7/Bank.cpp.i
+.PHONY : mod05/exercise7/Bank.i
+
+# target to preprocess a source file
+mod05/exercise7/Bank.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise7.dir\build.make CMakeFiles/exercise7.dir/mod05/exercise7/Bank.cpp.i
+.PHONY : mod05/exercise7/Bank.cpp.i
+
+mod05/exercise7/Bank.s: mod05/exercise7/Bank.cpp.s
+.PHONY : mod05/exercise7/Bank.s
+
+# target to generate assembly for a file
+mod05/exercise7/Bank.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise7.dir\build.make CMakeFiles/exercise7.dir/mod05/exercise7/Bank.cpp.s
+.PHONY : mod05/exercise7/Bank.cpp.s
+
+mod05/exercise7/BasicAccount.obj: mod05/exercise7/BasicAccount.cpp.obj
+.PHONY : mod05/exercise7/BasicAccount.obj
+
+# target to build an object file
+mod05/exercise7/BasicAccount.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise7.dir\build.make CMakeFiles/exercise7.dir/mod05/exercise7/BasicAccount.cpp.obj
+.PHONY : mod05/exercise7/BasicAccount.cpp.obj
+
+mod05/exercise7/BasicAccount.i: mod05/exercise7/BasicAccount.cpp.i
+.PHONY : mod05/exercise7/BasicAccount.i
+
+# target to preprocess a source file
+mod05/exercise7/BasicAccount.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise7.dir\build.make CMakeFiles/exercise7.dir/mod05/exercise7/BasicAccount.cpp.i
+.PHONY : mod05/exercise7/BasicAccount.cpp.i
+
+mod05/exercise7/BasicAccount.s: mod05/exercise7/BasicAccount.cpp.s
+.PHONY : mod05/exercise7/BasicAccount.s
+
+# target to generate assembly for a file
+mod05/exercise7/BasicAccount.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise7.dir\build.make CMakeFiles/exercise7.dir/mod05/exercise7/BasicAccount.cpp.s
+.PHONY : mod05/exercise7/BasicAccount.cpp.s
+
+mod05/exercise7/CheckingAccount.obj: mod05/exercise7/CheckingAccount.cpp.obj
+.PHONY : mod05/exercise7/CheckingAccount.obj
+
+# target to build an object file
+mod05/exercise7/CheckingAccount.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise7.dir\build.make CMakeFiles/exercise7.dir/mod05/exercise7/CheckingAccount.cpp.obj
+.PHONY : mod05/exercise7/CheckingAccount.cpp.obj
+
+mod05/exercise7/CheckingAccount.i: mod05/exercise7/CheckingAccount.cpp.i
+.PHONY : mod05/exercise7/CheckingAccount.i
+
+# target to preprocess a source file
+mod05/exercise7/CheckingAccount.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise7.dir\build.make CMakeFiles/exercise7.dir/mod05/exercise7/CheckingAccount.cpp.i
+.PHONY : mod05/exercise7/CheckingAccount.cpp.i
+
+mod05/exercise7/CheckingAccount.s: mod05/exercise7/CheckingAccount.cpp.s
+.PHONY : mod05/exercise7/CheckingAccount.s
+
+# target to generate assembly for a file
+mod05/exercise7/CheckingAccount.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise7.dir\build.make CMakeFiles/exercise7.dir/mod05/exercise7/CheckingAccount.cpp.s
+.PHONY : mod05/exercise7/CheckingAccount.cpp.s
+
+mod05/exercise7/Customer.obj: mod05/exercise7/Customer.cpp.obj
+.PHONY : mod05/exercise7/Customer.obj
+
+# target to build an object file
+mod05/exercise7/Customer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise7.dir\build.make CMakeFiles/exercise7.dir/mod05/exercise7/Customer.cpp.obj
+.PHONY : mod05/exercise7/Customer.cpp.obj
+
+mod05/exercise7/Customer.i: mod05/exercise7/Customer.cpp.i
+.PHONY : mod05/exercise7/Customer.i
+
+# target to preprocess a source file
+mod05/exercise7/Customer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise7.dir\build.make CMakeFiles/exercise7.dir/mod05/exercise7/Customer.cpp.i
+.PHONY : mod05/exercise7/Customer.cpp.i
+
+mod05/exercise7/Customer.s: mod05/exercise7/Customer.cpp.s
+.PHONY : mod05/exercise7/Customer.s
+
+# target to generate assembly for a file
+mod05/exercise7/Customer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise7.dir\build.make CMakeFiles/exercise7.dir/mod05/exercise7/Customer.cpp.s
+.PHONY : mod05/exercise7/Customer.cpp.s
+
+mod05/exercise7/TestBanking.obj: mod05/exercise7/TestBanking.cpp.obj
+.PHONY : mod05/exercise7/TestBanking.obj
+
+# target to build an object file
+mod05/exercise7/TestBanking.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise7.dir\build.make CMakeFiles/exercise7.dir/mod05/exercise7/TestBanking.cpp.obj
+.PHONY : mod05/exercise7/TestBanking.cpp.obj
+
+mod05/exercise7/TestBanking.i: mod05/exercise7/TestBanking.cpp.i
+.PHONY : mod05/exercise7/TestBanking.i
+
+# target to preprocess a source file
+mod05/exercise7/TestBanking.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise7.dir\build.make CMakeFiles/exercise7.dir/mod05/exercise7/TestBanking.cpp.i
+.PHONY : mod05/exercise7/TestBanking.cpp.i
+
+mod05/exercise7/TestBanking.s: mod05/exercise7/TestBanking.cpp.s
+.PHONY : mod05/exercise7/TestBanking.s
+
+# target to generate assembly for a file
+mod05/exercise7/TestBanking.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise7.dir\build.make CMakeFiles/exercise7.dir/mod05/exercise7/TestBanking.cpp.s
+.PHONY : mod05/exercise7/TestBanking.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -295,6 +428,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... exercise4
 	@echo ... exercise5
+	@echo ... exercise7
 	@echo ... mod04/exercise4/Account.obj
 	@echo ... mod04/exercise4/Account.i
 	@echo ... mod04/exercise4/Account.s
@@ -313,6 +447,21 @@ help:
 	@echo ... mod04/exercise5/TestBanking.obj
 	@echo ... mod04/exercise5/TestBanking.i
 	@echo ... mod04/exercise5/TestBanking.s
+	@echo ... mod05/exercise7/Bank.obj
+	@echo ... mod05/exercise7/Bank.i
+	@echo ... mod05/exercise7/Bank.s
+	@echo ... mod05/exercise7/BasicAccount.obj
+	@echo ... mod05/exercise7/BasicAccount.i
+	@echo ... mod05/exercise7/BasicAccount.s
+	@echo ... mod05/exercise7/CheckingAccount.obj
+	@echo ... mod05/exercise7/CheckingAccount.i
+	@echo ... mod05/exercise7/CheckingAccount.s
+	@echo ... mod05/exercise7/Customer.obj
+	@echo ... mod05/exercise7/Customer.i
+	@echo ... mod05/exercise7/Customer.s
+	@echo ... mod05/exercise7/TestBanking.obj
+	@echo ... mod05/exercise7/TestBanking.i
+	@echo ... mod05/exercise7/TestBanking.s
 .PHONY : help
 
 

@@ -27,7 +27,6 @@ namespace banking {
         bool deposit(double amount) override;
 
         double getBalance() const override {
-            cout << "balance: " << balance << endl;
             return this->balance;
         }
 

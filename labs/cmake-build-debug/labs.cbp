@@ -105,6 +105,50 @@
 					<DistClean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="exercise7">
+				<Option output="D:/var/GitHub/dcl112-2024-aug-05/labs/cmake-build-debug/exercise7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/GitHub/dcl112-2024-aug-05/labs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise7"/>
+					<CompileFile command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise7/fast">
+				<Option output="D:/var/GitHub/dcl112-2024-aug-05/labs/cmake-build-debug/exercise7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/GitHub/dcl112-2024-aug-05/labs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise7/fast"/>
+					<CompileFile command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DEVEL/stage/opt/CLion-2024.1.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/var/GitHub/dcl112-2024-aug-05/labs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="D:/var/GitHub/dcl112-2024-aug-05/labs/cmake-build-debug"/>
 				<Option type="4"/>
@@ -158,6 +202,36 @@
 		</Unit>
 		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod04/exercise5/TestBanking.cpp">
 			<Option target="exercise5"/>
+		</Unit>
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod05/exercise7/Account.h">
+			<Option target="exercise7"/>
+		</Unit>
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod05/exercise7/Bank.cpp">
+			<Option target="exercise7"/>
+		</Unit>
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod05/exercise7/Bank.h">
+			<Option target="exercise7"/>
+		</Unit>
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod05/exercise7/BasicAccount.cpp">
+			<Option target="exercise7"/>
+		</Unit>
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod05/exercise7/BasicAccount.h">
+			<Option target="exercise7"/>
+		</Unit>
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod05/exercise7/CheckingAccount.cpp">
+			<Option target="exercise7"/>
+		</Unit>
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod05/exercise7/CheckingAccount.h">
+			<Option target="exercise7"/>
+		</Unit>
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod05/exercise7/Customer.cpp">
+			<Option target="exercise7"/>
+		</Unit>
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod05/exercise7/Customer.h">
+			<Option target="exercise7"/>
+		</Unit>
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod05/exercise7/TestBanking.cpp">
+			<Option target="exercise7"/>
 		</Unit>
 		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
