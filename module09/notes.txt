@@ -1,0 +1,24 @@
+1. imperative programming: procedural programming, oop, aop, ...
+   algorithm -> implement -> solution
+
+2. declarative programming
+   SQL -> Domain Specific Language
+   "find out total population of Asian countries"
+   select sum(population)
+   from countries
+   where continent="Asia"
+
+   oop -> class
+   functional programming -> function
+     1. High-Order-Function
+     2. Pure Function
+     data -> pipeline -> function (HoF) chain -> solution
+
+   data from array/stl container (memory)
+        database (relational/no-sql)
+
+   streaming data
+   from kafka/rabbitmq, websocket/webrtc/mqtt/...
+   reactive programming: asynchronous programming, functional programming
+   https://reactivex.io/
+   https://github.com/ReactiveX/RxCpp

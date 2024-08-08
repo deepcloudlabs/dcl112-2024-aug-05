@@ -6,12 +6,15 @@
 #define LABS_ACCOUNT_H
 
 
-class Account { // abstract class
+class Account { // abstract class -> contract
 public:
     virtual double getBalance() const =0;
 
     virtual bool deposit(double amount)=0;
-
+    /*
+     *
+     *
+     * */
     virtual bool withdraw(double amount)=0;
 };
 
