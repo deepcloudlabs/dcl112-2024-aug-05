@@ -2,18 +2,18 @@
 #define ACCOUNT_H
 
 namespace banking {
-    class Account {
+    class BasicAccount {
         double balance;
 
     public:
-        Account(double init_balance);
+        BasicAccount(double init_balance);
 
         double getBalance() const;
 
         bool deposit(double amount);
 
         bool withdraw(double amount);
-        Account operator+(const Account& other);
+        BasicAccount operator+(const BasicAccount& other);
     };
 }
 

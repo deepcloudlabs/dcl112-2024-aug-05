@@ -3,21 +3,21 @@
 
 using namespace std;
 
-banking::Account::Account(double init_balance) : balance(init_balance) {
+banking::BasicAccount::BasicAccount(double init_balance) : balance(init_balance) {
 }
 
-double banking::Account::getBalance() const {
+double banking::BasicAccount::getBalance() const {
     return this->balance;
 }
 
-bool banking::Account::deposit(double amount) {
+bool banking::BasicAccount::deposit(double amount) {
     // validation
     if (amount <= 0.0) return false;
     this->balance += amount;
     return true;
 }
 
-bool banking::Account::withdraw(double amount) {
+bool banking::BasicAccount::withdraw(double amount) {
     // validation
     if (amount <= 0.0) return false;
     // business rule
@@ -27,6 +27,6 @@ bool banking::Account::withdraw(double amount) {
     return true;
 }
 
-banking::Account banking::Account::operator+(const Account &other) {
-    return Account{this->balance + other.balance};
+banking::BasicAccount banking::BasicAccount::operator+(const BasicAccount &other) {
+    return BasicAccount{this->balance + other.balance};
 }

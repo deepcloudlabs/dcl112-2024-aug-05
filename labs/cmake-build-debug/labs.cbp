@@ -135,10 +135,13 @@
 		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod04/exercise4/TestBanking.cpp">
 			<Option target="exercise4"/>
 		</Unit>
-		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod04/exercise5/Account.cpp">
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod04/exercise5/Account.h">
 			<Option target="exercise5"/>
 		</Unit>
-		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod04/exercise5/Account.h">
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod04/exercise5/BasicAccount.cpp">
+			<Option target="exercise5"/>
+		</Unit>
+		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod04/exercise5/BasicAccount.h">
 			<Option target="exercise5"/>
 		</Unit>
 		<Unit filename="D:/var/GitHub/dcl112-2024-aug-05/labs/mod04/exercise5/CheckingAccount.cpp">

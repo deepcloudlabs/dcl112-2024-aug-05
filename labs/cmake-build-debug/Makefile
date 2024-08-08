@@ -189,29 +189,29 @@ mod04/exercise4/TestBanking.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise4.dir\build.make CMakeFiles/exercise4.dir/mod04/exercise4/TestBanking.cpp.s
 .PHONY : mod04/exercise4/TestBanking.cpp.s
 
-mod04/exercise5/Account.obj: mod04/exercise5/Account.cpp.obj
-.PHONY : mod04/exercise5/Account.obj
+mod04/exercise5/BasicAccount.obj: mod04/exercise5/BasicAccount.cpp.obj
+.PHONY : mod04/exercise5/BasicAccount.obj
 
 # target to build an object file
-mod04/exercise5/Account.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise5.dir\build.make CMakeFiles/exercise5.dir/mod04/exercise5/Account.cpp.obj
-.PHONY : mod04/exercise5/Account.cpp.obj
+mod04/exercise5/BasicAccount.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise5.dir\build.make CMakeFiles/exercise5.dir/mod04/exercise5/BasicAccount.cpp.obj
+.PHONY : mod04/exercise5/BasicAccount.cpp.obj
 
-mod04/exercise5/Account.i: mod04/exercise5/Account.cpp.i
-.PHONY : mod04/exercise5/Account.i
+mod04/exercise5/BasicAccount.i: mod04/exercise5/BasicAccount.cpp.i
+.PHONY : mod04/exercise5/BasicAccount.i
 
 # target to preprocess a source file
-mod04/exercise5/Account.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise5.dir\build.make CMakeFiles/exercise5.dir/mod04/exercise5/Account.cpp.i
-.PHONY : mod04/exercise5/Account.cpp.i
+mod04/exercise5/BasicAccount.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise5.dir\build.make CMakeFiles/exercise5.dir/mod04/exercise5/BasicAccount.cpp.i
+.PHONY : mod04/exercise5/BasicAccount.cpp.i
 
-mod04/exercise5/Account.s: mod04/exercise5/Account.cpp.s
-.PHONY : mod04/exercise5/Account.s
+mod04/exercise5/BasicAccount.s: mod04/exercise5/BasicAccount.cpp.s
+.PHONY : mod04/exercise5/BasicAccount.s
 
 # target to generate assembly for a file
-mod04/exercise5/Account.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise5.dir\build.make CMakeFiles/exercise5.dir/mod04/exercise5/Account.cpp.s
-.PHONY : mod04/exercise5/Account.cpp.s
+mod04/exercise5/BasicAccount.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise5.dir\build.make CMakeFiles/exercise5.dir/mod04/exercise5/BasicAccount.cpp.s
+.PHONY : mod04/exercise5/BasicAccount.cpp.s
 
 mod04/exercise5/CheckingAccount.obj: mod04/exercise5/CheckingAccount.cpp.obj
 .PHONY : mod04/exercise5/CheckingAccount.obj
@@ -301,9 +301,9 @@ help:
 	@echo ... mod04/exercise4/TestBanking.obj
 	@echo ... mod04/exercise4/TestBanking.i
 	@echo ... mod04/exercise4/TestBanking.s
-	@echo ... mod04/exercise5/Account.obj
-	@echo ... mod04/exercise5/Account.i
-	@echo ... mod04/exercise5/Account.s
+	@echo ... mod04/exercise5/BasicAccount.obj
+	@echo ... mod04/exercise5/BasicAccount.i
+	@echo ... mod04/exercise5/BasicAccount.s
 	@echo ... mod04/exercise5/CheckingAccount.obj
 	@echo ... mod04/exercise5/CheckingAccount.i
 	@echo ... mod04/exercise5/CheckingAccount.s

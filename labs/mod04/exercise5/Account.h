@@ -1,23 +1,19 @@
-#include <iostream>
-using namespace std;
+//
+// Created by dcl on 8/8/2024.
+//
 
-#ifndef ACCOUNT_H
-#define ACCOUNT_H
+#ifndef LABS_ACCOUNT_H
+#define LABS_ACCOUNT_H
 
-namespace banking {
-    class Account {
-    private:
-    protected:
-        double balance;
-    public:
-        Account(double init_balance);
 
-        double getBalance() const;
+class Account { // abstract class
+public:
+    virtual double getBalance() const =0;
 
-        virtual bool deposit(double amount);
+    virtual bool deposit(double amount)=0;
 
-        virtual bool withdraw(double amount);
-    };
-}
-ostream& operator<<(ostream& os,banking::Account account);
-#endif //ACCOUNT_H
+    virtual bool withdraw(double amount)=0;
+};
+
+
+#endif //LABS_ACCOUNT_H

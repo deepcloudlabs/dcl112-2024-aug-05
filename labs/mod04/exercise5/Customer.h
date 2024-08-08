@@ -4,7 +4,7 @@
 
 #ifndef CUSTOMER_H
 #define CUSTOMER_H
-#include "Account.h"
+#include "BasicAccount.h"
 #include <string>
 
 
@@ -12,7 +12,7 @@ namespace banking {
     class Customer {
         const std::string firstName;
         const std::string lastName;
-        Account account;
+        BasicAccount account;
 
     public:
         Customer(const std::string &firstName, const std::string &lastName);
@@ -25,9 +25,9 @@ namespace banking {
             return this->lastName;
         }
 
-        Account& getAccount();
+        BasicAccount& getAccount();
 
-        void setAccount(Account account);
+        void setAccount(BasicAccount account);
     };
 }
 

@@ -82,19 +82,19 @@ CMakeFiles/exercise5.dir/mod04/exercise5/TestBanking.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exercise5.dir/mod04/exercise5/TestBanking.cpp.s"
 	D:\DEVEL\stage\opt\CLion-2024.1.4\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\var\GitHub\dcl112-2024-aug-05\labs\mod04\exercise5\TestBanking.cpp -o CMakeFiles\exercise5.dir\mod04\exercise5\TestBanking.cpp.s
 
-CMakeFiles/exercise5.dir/mod04/exercise5/Account.cpp.obj: CMakeFiles/exercise5.dir/flags.make
-CMakeFiles/exercise5.dir/mod04/exercise5/Account.cpp.obj: D:/var/GitHub/dcl112-2024-aug-05/labs/mod04/exercise5/Account.cpp
-CMakeFiles/exercise5.dir/mod04/exercise5/Account.cpp.obj: CMakeFiles/exercise5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\var\GitHub\dcl112-2024-aug-05\labs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exercise5.dir/mod04/exercise5/Account.cpp.obj"
-	D:\DEVEL\stage\opt\CLion-2024.1.4\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise5.dir/mod04/exercise5/Account.cpp.obj -MF CMakeFiles\exercise5.dir\mod04\exercise5\Account.cpp.obj.d -o CMakeFiles\exercise5.dir\mod04\exercise5\Account.cpp.obj -c D:\var\GitHub\dcl112-2024-aug-05\labs\mod04\exercise5\Account.cpp
+CMakeFiles/exercise5.dir/mod04/exercise5/BasicAccount.cpp.obj: CMakeFiles/exercise5.dir/flags.make
+CMakeFiles/exercise5.dir/mod04/exercise5/BasicAccount.cpp.obj: D:/var/GitHub/dcl112-2024-aug-05/labs/mod04/exercise5/BasicAccount.cpp
+CMakeFiles/exercise5.dir/mod04/exercise5/BasicAccount.cpp.obj: CMakeFiles/exercise5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\var\GitHub\dcl112-2024-aug-05\labs\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exercise5.dir/mod04/exercise5/BasicAccount.cpp.obj"
+	D:\DEVEL\stage\opt\CLion-2024.1.4\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exercise5.dir/mod04/exercise5/BasicAccount.cpp.obj -MF CMakeFiles\exercise5.dir\mod04\exercise5\BasicAccount.cpp.obj.d -o CMakeFiles\exercise5.dir\mod04\exercise5\BasicAccount.cpp.obj -c D:\var\GitHub\dcl112-2024-aug-05\labs\mod04\exercise5\BasicAccount.cpp
 
-CMakeFiles/exercise5.dir/mod04/exercise5/Account.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exercise5.dir/mod04/exercise5/Account.cpp.i"
-	D:\DEVEL\stage\opt\CLion-2024.1.4\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\var\GitHub\dcl112-2024-aug-05\labs\mod04\exercise5\Account.cpp > CMakeFiles\exercise5.dir\mod04\exercise5\Account.cpp.i
+CMakeFiles/exercise5.dir/mod04/exercise5/BasicAccount.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exercise5.dir/mod04/exercise5/BasicAccount.cpp.i"
+	D:\DEVEL\stage\opt\CLion-2024.1.4\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\var\GitHub\dcl112-2024-aug-05\labs\mod04\exercise5\BasicAccount.cpp > CMakeFiles\exercise5.dir\mod04\exercise5\BasicAccount.cpp.i
 
-CMakeFiles/exercise5.dir/mod04/exercise5/Account.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exercise5.dir/mod04/exercise5/Account.cpp.s"
-	D:\DEVEL\stage\opt\CLion-2024.1.4\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\var\GitHub\dcl112-2024-aug-05\labs\mod04\exercise5\Account.cpp -o CMakeFiles\exercise5.dir\mod04\exercise5\Account.cpp.s
+CMakeFiles/exercise5.dir/mod04/exercise5/BasicAccount.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exercise5.dir/mod04/exercise5/BasicAccount.cpp.s"
+	D:\DEVEL\stage\opt\CLion-2024.1.4\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\var\GitHub\dcl112-2024-aug-05\labs\mod04\exercise5\BasicAccount.cpp -o CMakeFiles\exercise5.dir\mod04\exercise5\BasicAccount.cpp.s
 
 CMakeFiles/exercise5.dir/mod04/exercise5/Customer.cpp.obj: CMakeFiles/exercise5.dir/flags.make
 CMakeFiles/exercise5.dir/mod04/exercise5/Customer.cpp.obj: D:/var/GitHub/dcl112-2024-aug-05/labs/mod04/exercise5/Customer.cpp
@@ -127,7 +127,7 @@ CMakeFiles/exercise5.dir/mod04/exercise5/CheckingAccount.cpp.s: cmake_force
 # Object files for target exercise5
 exercise5_OBJECTS = \
 "CMakeFiles/exercise5.dir/mod04/exercise5/TestBanking.cpp.obj" \
-"CMakeFiles/exercise5.dir/mod04/exercise5/Account.cpp.obj" \
+"CMakeFiles/exercise5.dir/mod04/exercise5/BasicAccount.cpp.obj" \
 "CMakeFiles/exercise5.dir/mod04/exercise5/Customer.cpp.obj" \
 "CMakeFiles/exercise5.dir/mod04/exercise5/CheckingAccount.cpp.obj"
 
@@ -135,7 +135,7 @@ exercise5_OBJECTS = \
 exercise5_EXTERNAL_OBJECTS =
 
 exercise5.exe: CMakeFiles/exercise5.dir/mod04/exercise5/TestBanking.cpp.obj
-exercise5.exe: CMakeFiles/exercise5.dir/mod04/exercise5/Account.cpp.obj
+exercise5.exe: CMakeFiles/exercise5.dir/mod04/exercise5/BasicAccount.cpp.obj
 exercise5.exe: CMakeFiles/exercise5.dir/mod04/exercise5/Customer.cpp.obj
 exercise5.exe: CMakeFiles/exercise5.dir/mod04/exercise5/CheckingAccount.cpp.obj
 exercise5.exe: CMakeFiles/exercise5.dir/build.make

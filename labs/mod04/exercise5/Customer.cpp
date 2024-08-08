@@ -13,10 +13,10 @@ Customer::Customer(const std::string &firstName, const std::string &lastName)
 }
 
 
-Account& Customer::getAccount() {
+BasicAccount& Customer::getAccount() {
     return this->account;
 }
 
-void Customer::setAccount(Account account) {
+void Customer::setAccount(BasicAccount account) {
     this->account = account;
 }

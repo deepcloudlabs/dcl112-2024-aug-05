@@ -1,17 +1,18 @@
-#include "Account.h"
+#include "BasicAccount.h"
 
 #ifndef LABS_CHECKINGACCOUNT_H
 #define LABS_CHECKINGACCOUNT_H
 
 namespace banking {
     // inheritance
-    // Account          : base class     super-class
+    // BasicAccount          : base class     super-class
     // CheckingAccount  : derived class  subclass
     class CheckingAccount : public Account {
+        double balance;
         double overdraft_amount;
     public:
-        CheckingAccount(double to_balance, double to_overdraft_amount)
-                : Account(to_balance) {
+        CheckingAccount(double to_balance, double to_overdraft_amount) {
+            this->balance = balance;
             this->overdraft_amount = to_overdraft_amount;
         }
 
@@ -22,13 +23,19 @@ namespace banking {
         // overriding: i. inherited classes
         //            ii. same method
         //           iii. same signature
-        bool withdraw(double amount);
+        bool withdraw(double amount) override;
+        bool deposit(double amount) override;
+
+        double getBalance() const override {
+            return this->balance;
+        }
 
         double getOverdraftAmount() const {
             return this->overdraft_amount;
         }
     };
 }
+
 // overloading
 ostream &operator<<(ostream &os, banking::CheckingAccount account);
 

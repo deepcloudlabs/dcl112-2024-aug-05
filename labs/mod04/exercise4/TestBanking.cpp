@@ -16,11 +16,11 @@ using namespace std;
  * 
  */
 int main(int argc, char **argv) {
-    Account *account;
+    BasicAccount *account;
 
     // Create an account that can has a 500.00 balance.
     cout << endl << "Creating an account with a 500.00 balance.";
-    account = new Account(500.00);
+    account = new BasicAccount(500.00);
 
     cout << endl << "Withdraw 150.00";
     account->withdraw(150.00);
@@ -36,8 +36,8 @@ int main(int argc, char **argv) {
     cout << endl;
     delete account;
 
-    Account acc1(100), acc2(200);
-    Account sumAcc = acc1 + acc2;
+    BasicAccount acc1(100), acc2(200);
+    BasicAccount sumAcc = acc1 + acc2;
     cout << "Balance of sumAcc is " << sumAcc.getBalance() << endl;
     return 0;
 }

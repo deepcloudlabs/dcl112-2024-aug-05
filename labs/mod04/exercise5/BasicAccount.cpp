@@ -1,22 +1,22 @@
-#include "Account.h"
+#include "BasicAccount.h"
 
-banking::Account::Account(double init_balance) : balance(init_balance) {
+banking::BasicAccount::BasicAccount(double init_balance) : balance(init_balance) {
 }
 
-double banking::Account::getBalance() const {
+double banking::BasicAccount::getBalance() const {
     return this->balance;
 }
 
 
 
-bool banking::Account::deposit(double amount) {
+bool banking::BasicAccount::deposit(double amount) {
     // validation
     if (amount <= 0.0) return false;
     this->balance += amount;
     return true;
 }
 
-bool banking::Account::withdraw(double amount) {
+bool banking::BasicAccount::withdraw(double amount) {
     // validation
     if (amount <= 0.0) return false;
     // business rule
@@ -26,7 +26,7 @@ bool banking::Account::withdraw(double amount) {
     return true;
 }
 
-ostream& operator<<(ostream& os,banking::Account account){
+ostream& operator<<(ostream& os,banking::BasicAccount account){
     os << "\nAccount[ balance: " << account.getBalance() << "]";
     return os;
 }
